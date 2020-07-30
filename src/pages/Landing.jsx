@@ -10,7 +10,7 @@ const Landing = () => (
       <img alt="" className="d-flex justify-content-center img-fluid" src={logo} />
       <h2 className="mb-5 d-flex justify-content-center text-center">
         where
-        <h2 className="text-danger">&nbsp; (developers) &nbsp;</h2>
+        <span className="text-danger">&nbsp;(developers)&nbsp;</span>
         make their dreams come true.
       </h2>
     </div>
