@@ -16,7 +16,7 @@ const IdeaCard = ({ idea }) => {
           {techstacks.join(', ')}
         </Card.Text>
         <Link to={`/idea/${idea_id}`}>
-          <Button variant="primary"> Find out more </Button>
+          <Button variant="danger"> Find out more </Button>
         </Link>
       </Card.Body>
     </Card>
